@@ -1,0 +1,155 @@
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    background-color: #252525;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 10px;
+
+  }
+  .logo, .sociais{
+    width: 12%;
+  }
+  .container {
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu {
+    text-align: left;
+    list-style-type: none;
+    text-align: left;
+    width: 50%;
+  }
+  .menu nav a {
+    padding-right: 50px;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+  }
+
+  .section1 {
+    background-image: url('./Web/dog3w.png') ;
+    background-size: cover;
+    left: 0px;
+    height: 950px;
+    width: 1348px;
+    font-size: 50px;
+    align-items: center;
+    
+
+  }
+  .div0{
+
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  .section1 h1{
+    font-family: roboto serif, bold;
+    word-wrap: break-word;
+    width: 800px;
+
+  }
+.logosection{
+    width: 120px;
+}
+  .section2 {
+    background-image: url('./Web/dog1w.png');
+    background-size: cover;
+    top: 768px;
+    left: 0px;
+    height: 950px;
+    width: 1347px;
+    text-align: left;
+    color:#3A342F;
+
+  }
+  .button1{
+    top: 1272px;
+    left: 62px;
+    width: 200px;
+    height: 81px;
+    background: #3A342F 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+    border-radius: 44px;
+    margin-left: 50px;
+    font-size: 20px;
+    border: none;
+  }
+  .div1{
+    margin-left: 50px;
+  }
+ .section2 h1{
+    font-family: roboto serif, bold;
+    font-size: 60px;
+    color:#3A342F ;
+    margin-left: 50px;
+ }
+ .paragraf1{
+    width: 600px;
+    word-wrap: break-word;
+    font-size: 40px;
+    margin-left: 50px;
+
+  }
+  .section3 {
+    background-image: url('./Web/dog2w.png');
+    background-size: cover;
+    text-align: left;
+    height: 950px;
+    width: 1348px;
+    
+  }
+  
+  .section3 h1{
+    font-family: roboto serif, bold;
+    font-size: 65px;
+    word-wrap: break-word;
+    width: 500px;
+    color:#FFFFFF ;
+    margin-left: 800px;
+    
+  }
+  .button2{
+    top: 1272px;
+    border: none;
+    left: 62px;
+    width: 200px;
+    height: 81px;
+    background: #FFFFFF;
+    color:#000000;
+    border-radius: 44px;
+    font-size: 20px;
+    font: normal normal bold 27px Roboto;
+    margin-left: 700px;
+  }
+  .div2{
+    text-align: left;
+  }
+  .paragraf2{
+    width: 600px;
+    word-wrap: break-word;
+    font-size: 40px;
+    margin-left: 720px;
+    text-align: left;
+    
+  
+  }
+  footer {
+    background-color: #EB4A7B;
+    color: white;
+    text-align: center;
+    padding: 20px 0; 
+    text-decoration: none;
+  }
+
+  @media (max-width: 768px) {
+    
+  }
